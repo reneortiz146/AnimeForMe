@@ -1,0 +1,81 @@
+body {
+  font-family: "Times New Roman";
+  background-color: #f8f9fb;
+}
+
+html, body, ul, ol, li, form, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navi ul {
+  width: 100%;
+}
+.navi li {
+  float: left;
+  width: 25%;
+}
+@media screen and (max-width: 800px) {
+  .navi li {
+    width: 100%;
+  }
+}
+.navi a {
+  text-orientation: none;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+  color: #f6f8fd;
+}
+.navi a:hover {
+  background-color: #fd0038;
+  color: black;
+  text-decoration: none;
+  text-orientation: none;
+}
+.navi input {
+  margin-top: 10px;
+}
+.navi button {
+  margin-top: 10px;
+}
+.navi .activo {
+  text-orientation: none;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  text-align: center;
+  color: #f6f8fd;
+  font-weight: bold;
+}
+.navi .activo:hover {
+  background-color: #fd0038;
+  color: black;
+  text-decoration: none;
+  text-orientation: none;
+}
+
+.name a {
+  display: block;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 900;
+  color: black;
+}
+.name:hover {
+  background-color: #fd0038;
+  color: black;
+}/*# sourceMappingURL=styles.css.map */
