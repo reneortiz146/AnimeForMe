@@ -10905,3 +10905,22 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+figure{
+  display: inline-block;
+  position: relative;
+  font-size: small;
+}
+figcaption{
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  left: 0px;
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+}
+figure:hover figcaption{
+  bottom: 0px;
+  display: block;
+}
