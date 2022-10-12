@@ -5,6 +5,7 @@
 body{
     background-color: $JustBlue;
 }
+
 .navi {    
     background: $JustBlue;
     @include clearFix;
@@ -231,43 +232,43 @@ body{
             padding: 0 0 8px; 
         }
     }
+}
 
-    #footer { 
-        clear: both; 
-        border-top: 1px solid $almostWhite; 
-        padding: 10px 0; 
-        margin: 0 0 15px; 
-        font-size: .9em; 
-        color: $spaceGray; 
-        background-color: $JustBlue; 
+#footer { 
+    clear: both; 
+    border-top: 1px solid $almostWhite; 
+    padding: 10px 0; 
+    margin: 0 0 15px; 
+    font-size: .9em; 
+    color: $spaceGray; 
+    background-color: $JustBlue; 
 
-        a{
-            color: black; 
-        }
+    a{
+        color: black; 
+    }
 
-        p {
-            color: black;
-        }
+    p {
+        color: black;
+    }
 
-        .col1 { 
-            float: left; 
-            width: 33%; 
-            padding: 7px 0 0 15px; 
-            margin: 0 0 10px; 
-        }
-    
-        .col2 { 
-            float: left; 
-            width: 33%;
-            border-left: 1px solid $almostWhite; 
-            padding: 7px 0 0 40px;
-        }
-    
-        .col3 { 
-            float: right; 
-            width: 33%; 
-            border-left: 1px solid $almostWhite; 
-            padding: 7px 0 0 40px; 
-        }
+    .col1 { 
+        float: left; 
+        width: 33%; 
+        padding: 7px 0 0 15px; 
+        margin: 0 0 10px; 
+    }
+
+    .col2 { 
+        float: left; 
+        width: 33%;
+        border-left: 1px solid $almostWhite; 
+        padding: 7px 0 0 40px;
+    }
+
+    .col3 { 
+        float: right; 
+        width: 33%; 
+        border-left: 1px solid $almostWhite; 
+        padding: 7px 0 0 40px; 
     }
 }
